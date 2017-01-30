@@ -1,0 +1,1 @@
+Dockerfiles to build an image containing the CMaNGOS reamld.

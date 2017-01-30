@@ -1,0 +1,10 @@
+version: "2"
+services:
+  realmd:
+    container_name: realmd
+    image: cmangos/realmd:latest
+    build: .
+    volumes:
+      - './conf:/etc/realmd:ro'
+    ports:
+      - '3724:3724'
